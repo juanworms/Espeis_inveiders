@@ -154,8 +154,8 @@ function love.load(arg)
 	alienbulletimg = love.graphics.newImage('alienbullet.png')
 	bulletsound = love.audio.newSource('gun-sound.wav')
 	bulletimg = love.graphics.newImage('bullet.png')
-	--music = love.audio.newSource('music.mp3')
-	--love.audio.play(music)
+	music = love.audio.newSource('music.mp3')
+	love.audio.play(music)
 end
 
 function love.update(dt)
