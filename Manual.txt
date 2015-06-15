@@ -1,0 +1,4 @@
+move with the arrows
+shoot with the spacebar
+run with lshift
+Restart with "r"
